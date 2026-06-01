@@ -1,7 +1,7 @@
 # Haseen Cybersecurity Lab
 
 ## Overview
-This project demonstrates a basic penetration testing workflow in a controlled lab environment. It includes reconnaissance, vulnerability analysis, and reporting automation.
+This project demonstrates a penetration testing workflow in a controlled educational lab environment. It includes reconnaissance, vulnerability analysis, and reporting automation.
 
 ## Tools Used
 - Nmap
@@ -9,6 +9,17 @@ This project demonstrates a basic penetration testing workflow in a controlled l
 - DVWA (Damn Vulnerable Web Application)
 - Python
 
+## Skills Demonstrated
+
+- Network Scanning
+- Service Enumeration
+- Vulnerability Assessment
+- Web Application Security Testing
+- SQL Injection Testing
+- Security Reporting
+- Python Automation
+
+  
 ## Methodology
 - Network reconnaissance and service enumeration using Nmap
 - Web application testing using Burp Suite
@@ -33,4 +44,7 @@ This project demonstrates a basic penetration testing workflow in a controlled l
 A Python script (`report.py`) was developed to automate basic penetration testing reporting.
 
 ## Author
-Cybersecurity & Network Systems Trainee
+
+Fatima Alhajory
+
+Network Systems Administration Graduate | IT Support Specialist
