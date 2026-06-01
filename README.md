@@ -1,66 +1,36 @@
-# حصين-Cybersecurity-Penetration-Testing-Lab
-حصين (Haseen) هو مختبر عملي للأمن السيبراني واختبار الاختراق يهدف إلى محاكاة عمليات الاستطلاع الأمني، تقييم الثغرات، واختبار تطبيقات الويب باستخدام أدوات مثل Nmap وBurp Suite وDVWA مع توليد تقارير آلية باستخدام Python.
 # Haseen Cybersecurity Lab
 
 ## Overview
-
-Haseen is a penetration testing lab project designed to demonstrate practical cybersecurity skills using Kali Linux and industry-standard security tools.
-
-## Objectives
-
-* Network Reconnaissance
-* Service Enumeration
-* Vulnerability Assessment
-* Web Application Security Testing
-* SQL Injection Testing
-* Automated Report Generation
+This project demonstrates a basic penetration testing workflow in a controlled lab environment. It includes reconnaissance, vulnerability analysis, and reporting automation.
 
 ## Tools Used
+- Nmap
+- Burp Suite
+- DVWA (Damn Vulnerable Web Application)
+- Python
 
-* Kali Linux
-* Docker
-* DVWA
-* Nmap
-* Burp Suite Community Edition
-* Python
+## Methodology
+- Network reconnaissance and service enumeration using Nmap
+- Web application testing using Burp Suite
+- SQL Injection testing in DVWA environment
+- Security findings documentation and classification
 
-## Activities Performed
+## Findings Summary
 
-### 1. Port Scanning
+| Finding | Severity |
+|--------|----------|
+| Open HTTP Service (Apache) | Low |
+| Missing HttpOnly Cookie Flag | Medium |
+| SQL Injection Vulnerability | High |
 
-Performed service discovery using Nmap and identified an HTTP service running on Apache.
+## Recommendations
+- Use parameterized SQL queries
+- Enable HttpOnly cookie protection
+- Reduce exposed services and hide server version
+- Perform periodic vulnerability assessments
 
-### 2. Service Enumeration
+## Automation
+A Python script (`report.py`) was developed to automate basic penetration testing reporting.
 
-Collected detailed information about web services, server versions, and security headers.
-
-### 3. Vulnerability Assessment
-
-Executed Nmap NSE vulnerability scripts to identify potential security weaknesses.
-
-### 4. Web Security Testing
-
-Intercepted and analyzed HTTP requests using Burp Suite.
-
-### 5. SQL Injection Demonstration
-
-Successfully demonstrated SQL Injection against DVWA in a controlled laboratory environment.
-
-### 6. Automated Reporting
-
-Developed a Python script that generates structured penetration testing reports including severity ratings and security recommendations.
-
-## Key Findings
-
-* Open HTTP Service
-* Missing HttpOnly Cookie Flag
-* SQL Injection Vulnerability
-
-## Skills Demonstrated
-
-* Penetration Testing
-* Network Security
-* Web Application Security
-* Vulnerability Assessment
-* Python Automation
-* Technical Documentation
+## Author
+Cybersecurity & Network Systems Trainee
